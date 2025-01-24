@@ -2,14 +2,17 @@
 
 Bem-vindo ao repositório do projeto Javer Bank! Aqui você encontrará um projeto onde pode-se desenvolver habilidades em **Spring Boot**, **Microsserviços**, **Feign Client**, **Documentação Swagger** e muito mais!
 
+
 ## Primeira Aplicação
   - Gestão de Clientes: Endpoints REST para operações CRUD no cadastro de clientes do banco.
   - Score de Crédito Personalizado: Endpoint para calcular o score de crédito de cada cliente.
   - Requisições REST para a segunda aplicação.
 
+
 ## Segunda Aplicação
   - Armazenamento: Responsável pelo armazenamento dos dados.
   - Gerenciamento: Gerencia as operações CRUD no banco de dados H2.
+
 
 ## Tecnologias Utilizadas
   - Java 17
@@ -18,6 +21,7 @@ Bem-vindo ao repositório do projeto Javer Bank! Aqui você encontrará um proje
   - Swagger
   - Maven
   - H2 Database
+
 
 ## Como Executar 🔧
   - **Clone este repositório:** git clone https://github.com/MarianeBS/javerBank-Java.git
