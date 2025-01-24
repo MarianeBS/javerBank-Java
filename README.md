@@ -27,5 +27,5 @@ Bem-vindo ao repositório do projeto Javer Bank! Aqui você encontrará um proje
   - **Clone este repositório:** git clone https://github.com/MarianeBS/javerBank-Java.git
   - **Navegue até a pasta do projeto e inicie as aplicações:** mvn spring-boot run
   - **Acesse o banco de dados:** http://localhost:8000/h2-console
-  - **Acesse a documentação interativa com Swagger:** http://localhost:8000/swagger-ui.html  
+  - **Acesse a documentação interativa com Swagger:** http://localhost:8000/swagger-ui/index.html  
 
