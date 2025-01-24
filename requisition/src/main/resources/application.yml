@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: requisition
+  cloud:
+    openfeign:
+      httpclient:
+        hc5:
+          enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /docs-requisition-service.html
+  api-docs:
+    path: /docs-requisition-service
+  packages-to-scan: com.msouza.requisition.web.controller

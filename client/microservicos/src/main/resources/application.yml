@@ -1,0 +1,44 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: client
+
+  web:
+    locale-resolver: fixed
+    locale: pt_BR
+
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/microservicos?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Sao_Paulo
+#    username: root
+#    password: 12345678
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+
+springdoc:
+  swagger-ui:
+    path: /docs-client-service.html
+  api-docs:
+    path: /docs-client-service
+  packages-to-scan: com.msouza.client.web.controller
+
+
+
